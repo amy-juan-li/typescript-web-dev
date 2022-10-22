@@ -1,0 +1,33 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/juanli/go/bin:node_modules/.bin:/Users/juanli/.local/bin:/Users/juanli/bin:bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: setRawMode EINTR
+      at ReadStream.setRawMode (node:tty:78:31)
+      at Interface._setRawMode (node:readline:403:16)
+      at Interface.close (node:readline:587:10)
+      at ReadStream.ontermend (node:readline:287:10)
+      at ReadStream.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
